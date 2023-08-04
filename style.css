@@ -1,0 +1,10 @@
+.productos {display: flex;}
+
+
+
+
+.producto img {
+    height: 150px;
+    width: 300px;
+    object-fit: cover;
+}
