@@ -1,10 +1,194 @@
-.productos {display: flex;}
+body {
+    background-color: lightblue;
 
+}
+* {    font-family: 'Open Sans', sans-serif;
+    font-family: 'REM', sans-serif;}
 
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
 
+.titulo-carrito {
+    text-align: center;
+    font-size: 40px;
+}
 
-.producto img {
+.total {
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.total span {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+img {
     height: 150px;
-    width: 300px;
+    width: 280px;
     object-fit: cover;
+    border-radius: 10px;
+}
+
+.productos {
+    display: flex;
+}
+
+.producto {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+
+
+.productoAgregado {
+    display: flex;
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 14px;
+    border: 2px solid black;
+    padding: 6px;
+}
+
+.contenedor-contenido button {
+    background-color: red;
+}
+
+.contenedor-contenido button {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.contenedor-contenido button:hover,
+.contenedor-contenido button:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+}
+
+.contenedor-contenido button:active {
+    opacity: .5;
+}
+
+.producto button {
+    appearance: none;
+    background-color: #000000;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 10px;
+    min-width: 0;
+    outline: none;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+    will-change: transform;
+}
+
+.producto button:disabled {
+    pointer-events: none;
+}
+
+.producto button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.producto button:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+.vaciarCarrito {
+    appearance: button;
+    background-color: #000;
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: #fff 4px 4px 0 0, #000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: ITCAvantGardeStd-Bk, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 5px 10px 0;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.vaciarCarrito:focus {
+    text-decoration: none;
+}
+
+.vaciarCarrito:hover {
+    text-decoration: none;
+}
+
+.vaciarCarrito:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+}
+
+.vaciarCarrito:not([disabled]):active {
+    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+}
+
+.contenedor-vaciar {
+    display: flex;
+    justify-content: center;
+}
+
+
+.sucursales {display: flex;
+justify-content: space-between;
+background-color: lightblue;
 }

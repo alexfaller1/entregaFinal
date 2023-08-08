@@ -1,6 +1,6 @@
 [
-    { "nombre": "Sucursal A", "direccion": "Calle 123, Ciudad A", "telefono": "123-456-7890" },
-    { "nombre": "Sucursal B", "direccion": "Avenida XYZ, Ciudad B", "telefono": "987-654-3210" },
-    { "nombre": "Sucursal C", "direccion": "Plaza ABC, Ciudad C", "telefono": "555-555-5555" }
+    { "nombre": "Sucursal Madariaga", "direccion": "Moreno 1416, Buenos Aires", "telefono": "123-456-7890" },
+    { "nombre": "Sucursal Pinamar ", "direccion": "Bunge 612, Buenos Aires", "telefono": "123-456-7890" },
+    { "nombre": "Sucursal Carilo", "direccion": "Plaza Italia, Buenos aires", "telefono": "123-456-7890" }
    
   ]
